@@ -1,0 +1,38 @@
+.tn-container {
+	overflow: hidden;
+		
+}
+
+.tn-canvas {
+	overflow: hidden;
+	position: relative;
+}
+
+.tn-lowerFrame {
+	z-index: 2;
+}
+
+.tn-upperFrame {
+	z-index: 3;
+	position: absolute;
+}
+
+.tn-divider {
+	border-left: 1px solid white;
+	position: absolute;
+	bottom: 0px;
+	top: 0px;
+	left: 30px;
+	z-index: 10;
+}
+
+.tn-handle {
+	width: 8px;
+	left: -4px;
+	height: 20px;
+	margin-top: -10px;
+	top: 50%;
+	border: 1px solid #eee;
+	background-color: white;
+	position: absolute;
+}
